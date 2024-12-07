@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       -name: Display information
-       run: echo "Event name ${{github.event_name}}"    
+       run: echo "test"
   
       -name: Retrieve Variable
        run: |
