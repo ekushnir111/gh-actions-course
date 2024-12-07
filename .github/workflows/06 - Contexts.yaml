@@ -9,10 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Display information
-       run: |
-        echo "Event name ${{github.event_name}}"
-        echo "Workflow ${{github.workflow}}"
+        run: |
+          echo "Event name ${{github.event_name}}"
+          echo "Workflow ${{github.workflow}}"
     
       - name: Retrieve Variable
-       run: |
-        echo "Variable ${{vars.MY_VAR}}"
+        run: |
+          echo "Variable ${{vars.MY_VAR}}"
+
+
+
